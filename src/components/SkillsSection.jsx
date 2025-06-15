@@ -10,7 +10,7 @@ const skills = [
 
 export default function SkillsSection() {
   return (
-    <>
+    <div id="skills" >
     
     <Box sx={{ py: 10, backgroundColor: "#f7fafc" }}>
       <Typography variant="h4" align="center" gutterBottom sx={{mb: 4}}>
@@ -28,7 +28,7 @@ export default function SkillsSection() {
         ))}
       </Grid>
     </Box>
-    </>
+    </div>
   );
 }
 
