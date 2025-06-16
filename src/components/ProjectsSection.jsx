@@ -1,5 +1,5 @@
 import { Grid, Typography, Card, CardContent, Button, Box } from "@mui/material";
-import { Link } from "react-router-dom"; // 👈 Important
+import { Link } from "react-router-dom"; 
 import simple_calculator from "../assets/simple-calculator.png";
 
 const projects = [
