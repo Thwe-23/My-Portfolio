@@ -4,6 +4,7 @@ import AppBarComponents from './HeaderComponents/AppBarComponents';
 import Button from '@mui/material/Button';
 import CardComponents from "./HeaderComponents/CardComponents";
 import profile from "../assets/profile.jpg"
+import { FaPhoneAlt } from 'react-icons/fa'
 
 export default function Header() {
   return (
@@ -52,10 +53,10 @@ export default function Header() {
             </Typography>
             <Button
               variant="contained"
-              href="#"
+              href="tel:09442867050"
               sx={{ my: 2, backgroundColor: 'white', color: '#4f46e5', fontWeight: 'bold' }}
             >
-              Contact Me
+              <FaPhoneAlt /> Contact Me
             </Button>
           </Box>
         </Container>
